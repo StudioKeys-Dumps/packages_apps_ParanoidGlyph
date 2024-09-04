@@ -25,7 +25,7 @@
         android:key="glyph_enable"
         android:title="@string/glyph_settings_enable" />
 
-    <SwitchPreference
+    <SwitchPreferenceCompat
         android:key="glyph_settings_flip_toggle"
         android:defaultValue="true"
         android:title="@string/glyph_settings_flip_toggle_title"
